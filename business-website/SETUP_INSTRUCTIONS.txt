@@ -1,0 +1,50 @@
+# Quick Setup - Download Images
+
+## Folder Created: `images/` 
+Location: `C:\Users\user\Desktop\Developers_arena\images\`
+
+## Next Steps:
+
+1. **Download Images from Unsplash or Pexels**
+   - Visit https://unsplash.com or https://pexels.com
+   - Search for each dish name
+   - Download high-quality images
+
+2. **Save Images Locally**
+   Save each image to your `images/` folder with these exact names:
+   
+   **Home & Menu:**
+   - prime-ribeye.jpg
+   - pasta-carbonara.jpg
+   - organic-salad.jpg
+   - ribeye.jpg
+   - pasta.jpg
+   - salad.jpg
+   - salmon.jpg
+   - chicken.jpg
+   - risotto.jpg
+   
+   **Appetizers:**
+   - bruschetta.jpg
+   - calamari.jpg
+   - burrata.jpg
+   
+   **Desserts:**
+   - tiramisu.jpg
+   - panna-cotta.jpg
+   - chocolate-torte.jpg
+   
+   **About Page:**
+   - kitchen.jpg
+
+3. **All HTML files are already updated!**
+   - index.html ✓
+   - menu.html ✓
+   - about.html ✓
+
+Once you download and save the images, they will appear automatically on all pages!
+
+## Tips:
+- Use .jpg format for best performance
+- Download medium to large sizes (1000px+)
+- Keep file names exactly as listed above

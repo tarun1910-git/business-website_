@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact | Urban Bistro</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/1996/1996055.png" alt="Logo" style="width: 40px; vertical-align: middle; margin-right: 10px;">
+                Urban<span>Bistro</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger"><div></div></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <h1>Get in Touch</h1>
+            <p class="hero-subtitle">Reserve your table and join us for an exceptional dining experience</p>
+        </section>
+
+        <section class="contact-container">
+            <h2>Book a Table</h2>
+            <form id="contact-form" novalidate>
+                <input type="text" id="name" placeholder="Full Name" required minlength="3">
+                <span class="error" id="nameError"></span>
+                
+                <input type="email" id="email" placeholder="Email Address" required>
+                <span class="error" id="emailError"></span>
+                
+                <input type="date" id="date" required>
+                <span class="error" id="dateError"></span>
+                
+                <textarea id="requests" placeholder="Special Requests" rows="4"></textarea>
+                
+                <button type="submit" class="btn">Send Reservation</button>
+            </form>
+
+            <div id="success-message">
+                <h3 style="color: #c5a059;">Thanks For Booking</h3>
+                <p>Thank you, <span id="user-name"></span>. We have received your request and will contact you shortly.</p>
+                <a href="index.html" class="btn btn-home">Back to Home</a>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+</html>
